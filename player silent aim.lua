@@ -33,6 +33,7 @@ FOVCircle.Thickness = SilentAim.FOV.Thickness
 FOVCircle.Transparency = SilentAim.FOV.Transparency
 FOVCircle.Radius = SilentAim.FOV.Radius
 
+-- [[ Cache ]] --
 local function validateNPC(model)
     if not model:IsA("Model") then return false end
     local hum = model:FindFirstChildWhichIsA("Humanoid")
