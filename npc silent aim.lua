@@ -1,13 +1,3 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
--- Made by jailcase lmao join https://discord.gg/tQKnAxqjTX
-
-
-
-
-
-
 -- Prevent multiple runs
 if _G.SilentAimSetup then return end
 _G.SilentAimSetup = true
